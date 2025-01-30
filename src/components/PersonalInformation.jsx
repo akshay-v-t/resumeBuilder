@@ -36,7 +36,6 @@ const PersonalInformation = () => {
     localStorage.setItem('formData', JSON.stringify(formData))
     console.log('Form Data Saved : ', formData)
 
-    
 
   }
 
@@ -98,10 +97,10 @@ const PersonalInformation = () => {
             </div>
 
             <div>
-            <label htmlFor="number">Phone :  </label>
+            <label htmlFor="phone">Phone :  </label>
             <input 
             type="tel" 
-            placeholder='Enter your phone number' name='number' className='border w-100 p-1 ml-1 pl-2 rounded border-gray-300  focus:outline-blue-500/50'
+            placeholder='Enter your phone number' name='phone' className='border w-100 p-1 ml-1 pl-2 rounded border-gray-300  focus:outline-blue-500/50'
             value={formData.phone}
             onChange={handleInputChange}
 

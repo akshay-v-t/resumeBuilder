@@ -22,7 +22,7 @@ export const AppContextProvider = ({ children }) => {
 
 
   // The context value passed to children
-  const value = { profileImage, setProfileImage, formData, setFormData,  };
+  const value = { profileImage, setProfileImage, formData, setFormData,   };
 
   return (
     <AppContext.Provider value={value}>
